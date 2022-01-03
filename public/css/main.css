@@ -1,0 +1,124 @@
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.body-img {
+  background-image: linear-gradient(0deg, rgb(0, 0, 0),  rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  color: white;
+}
+
+.listings {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  width: 20%;
+}
+
+th, td {
+  height: 50px;
+  width: 20%;
+  text-align: center;
+
+}
+
+th {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+td {
+  background-color: rgb(190, 190, 190);
+}
+
+.client-body-img {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  background-color: #a3b1dc2d;
+}
+
+img {
+  height: 100%;
+  width: auto;
+  overflow: hidden;
+}
+
+.client-body-img h1 {
+  margin: 0 0 0 15%;
+  font-size: 4.5rem;
+  font-family: 'New Century Schoolbook', 'TeX Gyre Schola', serif;
+}
+
+.client-body-img p {
+  margin: 5px 0% 0% 15%;
+  font-size: 1.5rem;
+}
+
+
+.client-body-img .main {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.search-bar {
+  width: 100%;
+}
+
+.search-bar form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: black;
+  color: white;
+} 
+
+.search-bar label, .search-bar input {
+  display: block;
+  margin-left: 12%;
+}
+
+.search-bar input {
+  height: 40%;
+  width: 80%;
+}
+
+.search-bar input:focus {
+  border: 0px solid black;
+}
+
+form div {
+  width: 25%;
+  margin-top: 1%;
+}
+
+.search-bar input[type="submit"] {
+  height: 50px;
+  margin: 3% 2% 1% 5%;
+  background-color: #a3b1dc;
+  color: black;
+  width: 15%;
+  border-width: 0;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 1064px) {
+
+}

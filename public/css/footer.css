@@ -1,0 +1,18 @@
+footer {
+  background-color: black;
+  color: aliceblue;
+  
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.copyright {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}

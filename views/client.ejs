@@ -1,0 +1,45 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>POLITO HOMES</title>
+  </head>
+  <body>
+    <%- include('partials/header') %>
+    <main>
+      <div class="client-body-img">
+        <div class="main">
+          <h1>
+            The Perfect Short Stay Homes
+          </h1>
+          <p>Polito Homes provides short-term rentals in the city of NYC.</p>
+        </div>
+        <img src="photos/house.png">
+      </div>
+      <div class="search-bar">
+        <form>
+          <div>
+            <label for="check-in">Check in</label>
+            <input type="date" id="check-in">
+          </div>
+          <div>
+            <label for="check-out">Check out</label>
+            <input type="date" id="check-out">
+          </div>
+          <div>
+            <label for="rooms">Rooms</label>
+            <input type="number" id="rooms">
+          </div>
+          <input type="submit" value="SEARCH">
+        </form>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <div class="footer">
+      <%- include('partials/footer') %>
+    </div>
+  </body>
+
+  
